@@ -1,6 +1,9 @@
-.class1 a {
+a[href^="https"] {
     color: red;
 }
-    .text {
-font-size: 24px;
+ul+p {
+    font-size: 24px;
+}
+ul + p {
+    font-size: 24px;
 }
